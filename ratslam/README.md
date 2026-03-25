@@ -62,7 +62,7 @@ source ~/ros2_ws/install/setup.bash
 
 ## 데이터셋
 
-데이터셋 다운로드: [Google Drive](https://drive.google.com/drive/folders/1ggAxMzIyadmenUPoAon2rL8gvJvuv75K?usp=sharing)
+To use this package with your datasets, first convert the dataset to a ROS 2 bag format, if necessary. Access the datasets google drive link https://drive.google.com/drive/folders/1ggAxMzIyadmenUPoAon2rL8gvJvuv75K?usp=drive_link for examples.
 
 | 데이터셋 | 설명 | topic_root |
 |----------|------|------------|
