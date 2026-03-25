@@ -1,0 +1,24 @@
+ratslam_view_template:
+  ros__parameters:
+    vt_match_threshold: 0.054
+    template_x_size: 60
+    template_y_size: 10
+    vt_panoramic: 1
+    vt_patch_normalisation: 2
+    enable: true
+    vt_window_width: 640
+    vt_window_height: 900
+
+ratslam_pose_cells:
+  ros__parameters:
+    pc_cell_x_size: 1.0
+    pc_dim_xy: 30
+    exp_delta_pc_threshold: 2.0
+    pc_vt_inject_energy: 0.2
+    vt_active_decay: 1.0
+    enable: true
+
+ratslam_experience_map:
+  ros__parameters:
+    exp_loops: 100
+    enable: true

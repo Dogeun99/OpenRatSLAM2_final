@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# Large dataset files
+*.db3
+*.zip
+*.bag
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
